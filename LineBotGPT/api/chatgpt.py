@@ -3,7 +3,7 @@ from api.prompt import Prompt
 import os
 import openai
 
-openai.api_key = os.getenv("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")
+openai.api_key = os.getenv("OPENAI_API_KEY")
 
 class ChatGPT:
     def __init__(self):
